@@ -1,0 +1,18 @@
+# Ignore node_modules folders from all subfolders
+**/node_modules/
+
+# Ignore build or dist folders (React / Next / Vite build outputs)
+**/build/
+**/dist/
+
+# Ignore environment files
+**/.env
+**/.env.local
+
+# Ignore system or editor files
+.DS_Store
+*.log
+
+# Optional: VS Code settings or temporary files
+.vscode/
+*.tmp
